@@ -51,7 +51,7 @@ nav a, nav a:visited, nav a:hover, nav a:active {
     color: black;
 }
 
-.title-list li {
+.title-list li, h2 {
     font-size: 1.5rem;
 }
 
@@ -74,10 +74,11 @@ nav a, nav a:visited, nav a:hover, nav a:active {
 
     html {
         width: 95vw;
+        font-size: 14px;;
     }
 
     .nav-item {
-        font-size: 1.25rem;
+        font-size: 1.125rem;
         margin-right: 20px;
     }
 }

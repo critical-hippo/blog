@@ -1,0 +1,25 @@
+/* sub-index.css customized for faq */
+
+p, label {
+    color: #222;
+}
+
+h2, label {
+    display: inline-block;
+}
+
+label {
+    font-size: 1.25rem;
+}
+
+#questions li p {
+    display: none;
+}
+
+#questions li input:checked ~ p {
+    display: block;
+}
+
+#questions li {
+    margin-left: 1rem;  
+}
