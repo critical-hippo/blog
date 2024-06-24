@@ -1,0 +1,71 @@
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-indent: 2.5rem;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+body {
+    width: 80vw;
+    margin: auto;
+    margin-top: 65px;
+}
+
+nav {
+    width: 100vw;
+    height: 45px;
+
+    position: fixed;
+    top: -5px;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: #3066be;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 40px;
+
+    font-size: 1.25rem;
+    overflow: hidden;
+}
+
+nav a, nav a:visited, nav a:hover, nav a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.title-list li {
+    font-size: 1.5rem;
+}
+
+.title-list li * {
+    font-size: 1em;
+}
+
+.title-list li p {
+    font-size: 0.75em;
+}
+
+@media (max-width: 600px) {
+    nav {
+        height: 70px;
+    }
+
+    .nav-item {
+        font-size: 1.25em;
+        margin-right: 20px;
+    }
+}
