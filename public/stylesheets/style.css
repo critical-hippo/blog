@@ -1,7 +1,13 @@
 html {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.2;
     font-family: Helvetica, sans-serif;
+    padding-bottom: 700px;
+}
+
+img {
+    display: block;
+    margin: auto;
 }
 
 h1 {
@@ -18,7 +24,7 @@ h1 {
 }
 
 body {
-    width: 80vw;
+    width: 60vw;
     margin: auto;
     margin-top: 65px;
     background-color: #eee;
@@ -26,7 +32,7 @@ body {
 
 nav {
     width: 100vw;
-    height: 45px;
+    height: 50px;
 
     position: fixed;
     top: -5px;
@@ -55,11 +61,20 @@ nav a, nav a:visited, nav a:hover, nav a:active {
     font-size: 1.5rem;
 }
 
-.title-list li p {
-    font-size: 0.75em;
-}
+@media (max-width: 700px) {
+    html {
+        font-size: 14px;
+    }
 
-@media (max-width: 600px) {
+    body {
+        width: 95vw;
+    }
+
+    img {
+        width: 310px;
+        height: auto;
+    }
+
     h1 {
         font-size: 1.5rem;
     }
@@ -70,11 +85,6 @@ nav a, nav a:visited, nav a:hover, nav a:active {
 
     p, .title-list li p {
         font-size: 1rem;
-    }
-
-    html {
-        width: 95vw;
-        font-size: 14px;
     }
 
     .nav-item {
